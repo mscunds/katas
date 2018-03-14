@@ -9,7 +9,7 @@ package de.mscs.training.lambdas.lecture1;
  */
 public class Lecture1 {
     
-    public void firstLambda() {
+    public void execute() {
         Runnable runnable = () -> System.out.println("Ich bin das erste Lambda");
         runnable.run();
     }
@@ -19,6 +19,9 @@ public class Lecture1 {
      * @param args
      */
     public static void main(String[] args) {
-        new Lecture1().firstLambda();
+        Lecture1 lecture1 = new Lecture1();
+        
+        System.out.println("\nStart a thread with lambdas");
+        lecture1.execute();
     }
 }
