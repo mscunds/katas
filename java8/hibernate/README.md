@@ -8,3 +8,9 @@ This kata contains exercises for hibernate. You will learn:
 - how to execute pure SQL
 - about HQL
 - how to use Criteria API
+
+## Lecture 1
+- create a simple Entity
+- configure SessionFactory
+- define dependencies 
+- build up database
