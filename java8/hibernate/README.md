@@ -14,3 +14,5 @@ This kata contains exercises for hibernate. You will learn:
 - configure SessionFactory
 - define dependencies 
 - build up database
+
+for more see [lecture 1](http://github.com/mscunds/katas/tree/master/java8/hibernate/Lecture1.md)
