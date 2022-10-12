@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="203.4px" preserveAspectRatio="none" style="width:322px;height:203px;background:#FFFFFF;" version="1.1" viewBox="0 0 322 203" width="322.2px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="6.7031" style="stroke:none;stroke-width:0.6;" width="49.8" x="264" y="0"/><text fill="#888888" font-family="sans-serif" font-size="6" lengthAdjust="spacing" textLength="49.8" x="264" y="5.4316">Vermittler-Pattern</text><!--MD5=[7bc5716ff34e8b57d97376709b158217]
+class Mediator--><g id="elem_Mediator"><rect codeLine="12" fill="#F1F1F1" height="38.1844" id="Mediator" rx="1.5" ry="1.5" style="stroke:#181818;stroke-width:0.3;" width="52.8" x="36.3" y="11.5031"/><ellipse cx="45.3" cy="21.1031" fill="#B4A7E5" rx="6.6" ry="6.6" style="stroke:#181818;stroke-width:0.6;"/><path d="M45.8719,19.0875 L45.8719,23.0813 L46.9031,23.0813 Q47.2688,23.0813 47.4281,23.2219 Q47.5875,23.3625 47.5875,23.5969 Q47.5875,23.8219 47.4281,23.9625 Q47.2688,24.1031 46.9031,24.1031 L43.8188,24.1031 Q43.4531,24.1031 43.2937,23.9625 Q43.1344,23.8219 43.1344,23.5875 Q43.1344,23.3625 43.2937,23.2219 Q43.4531,23.0813 43.8188,23.0813 L44.85,23.0813 L44.85,19.0875 L43.8188,19.0875 Q43.4531,19.0875 43.2937,18.9469 Q43.1344,18.8063 43.1344,18.5719 Q43.1344,18.3469 43.2937,18.2063 Q43.4531,18.0656 43.8188,18.0656 L46.9031,18.0656 Q47.2688,18.0656 47.4281,18.2063 Q47.5875,18.3469 47.5875,18.5719 Q47.5875,18.8063 47.4281,18.9469 Q47.2688,19.0875 46.9031,19.0875 L45.8719,19.0875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="33.6" x="53.7" y="24.0152">Mediator</text><line style="stroke:#181818;stroke-width:0.3;" x1="36.9" x2="88.5" y1="30.7031" y2="30.7031"/><line style="stroke:#181818;stroke-width:0.3;" x1="36.9" x2="88.5" y1="35.5031" y2="35.5031"/><ellipse cx="42.9" cy="43.4953" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="36" x="48.3" y="45.5074">mediate()</text></g><!--MD5=[9b562aec2131c9e0bff5f8ddbc6859c1]
+class KonkreterMediator--><g id="elem_KonkreterMediator"><rect codeLine="16" fill="#F1F1F1" height="38.1844" id="KonkreterMediator" rx="1.5" ry="1.5" style="stroke:#181818;stroke-width:0.3;" width="89.4" x="4.2" y="150.7031"/><ellipse cx="13.2" cy="160.3031" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#181818;stroke-width:0.6;"/><path d="M14.8594,157.8281 Q14.9531,157.6969 15.0656,157.6313 Q15.1781,157.5656 15.3094,157.5656 Q15.5344,157.5656 15.675,157.725 Q15.8156,157.875 15.8156,158.2406 L15.8156,159.1125 Q15.8156,159.4781 15.675,159.6375 Q15.5344,159.7969 15.3094,159.7969 Q15.1031,159.7969 14.9813,159.675 Q14.8594,159.5625 14.7938,159.2531 Q14.7656,159.0375 14.6531,158.925 Q14.4562,158.7 14.0906,158.5688 Q13.725,158.4375 13.35,158.4375 Q12.8906,158.4375 12.5063,158.6344 Q12.1313,158.8312 11.8312,159.2813 Q11.5406,159.7313 11.5406,160.35 L11.5406,161.0063 Q11.5406,161.7469 12.075,162.2438 Q12.6094,162.7313 13.5656,162.7313 Q14.1281,162.7313 14.5219,162.5812 Q14.7563,162.4875 15.0094,162.225 Q15.1688,162.0656 15.2531,162.0187 Q15.3469,161.9719 15.4688,161.9719 Q15.6656,161.9719 15.8156,162.1313 Q15.975,162.2813 15.975,162.4875 Q15.975,162.6938 15.7687,162.9375 Q15.4688,163.2844 14.9906,163.4813 Q14.3438,163.7531 13.5656,163.7531 Q12.6563,163.7531 11.9344,163.3781 Q11.3438,163.0781 10.9313,162.4406 Q10.5187,161.7938 10.5187,161.025 L10.5187,160.3312 Q10.5187,159.5344 10.8844,158.85 Q11.2594,158.1563 11.9156,157.7906 Q12.5719,157.4156 13.3125,157.4156 Q13.7531,157.4156 14.1375,157.5187 Q14.5313,157.6125 14.8594,157.8281 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="70.2" x="21.6" y="163.2152">KonkreterMediator</text><line style="stroke:#181818;stroke-width:0.3;" x1="4.8" x2="93" y1="169.9031" y2="169.9031"/><line style="stroke:#181818;stroke-width:0.3;" x1="4.8" x2="93" y1="174.7031" y2="174.7031"/><ellipse cx="10.8" cy="182.6953" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="36" x="16.2" y="184.7074">mediate()</text></g><!--MD5=[667197aa482011c7aec855a575bd9216]
+class Kollege--><g id="elem_Kollege"><rect codeLine="24" fill="#F1F1F1" height="28.8" id="Kollege" rx="1.5" ry="1.5" style="stroke:#181818;stroke-width:0.3;" width="47.4" x="145.8" y="16.3031"/><ellipse cx="154.8" cy="25.9031" fill="#B4A7E5" rx="6.6" ry="6.6" style="stroke:#181818;stroke-width:0.6;"/><path d="M155.3719,23.8875 L155.3719,27.8812 L156.4031,27.8812 Q156.7687,27.8812 156.9281,28.0219 Q157.0875,28.1625 157.0875,28.3969 Q157.0875,28.6219 156.9281,28.7625 Q156.7687,28.9031 156.4031,28.9031 L153.3188,28.9031 Q152.9531,28.9031 152.7938,28.7625 Q152.6344,28.6219 152.6344,28.3875 Q152.6344,28.1625 152.7938,28.0219 Q152.9531,27.8812 153.3188,27.8812 L154.35,27.8812 L154.35,23.8875 L153.3188,23.8875 Q152.9531,23.8875 152.7938,23.7469 Q152.6344,23.6063 152.6344,23.3719 Q152.6344,23.1469 152.7938,23.0062 Q152.9531,22.8656 153.3188,22.8656 L156.4031,22.8656 Q156.7687,22.8656 156.9281,23.0062 Q157.0875,23.1469 157.0875,23.3719 Q157.0875,23.6063 156.9281,23.7469 Q156.7687,23.8875 156.4031,23.8875 L155.3719,23.8875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-style="italic" lengthAdjust="spacing" textLength="28.2" x="163.2" y="28.8152">Kollege</text><line style="stroke:#181818;stroke-width:0.3;" x1="146.4" x2="192.6" y1="35.5031" y2="35.5031"/><line style="stroke:#181818;stroke-width:0.3;" x1="146.4" x2="192.6" y1="40.3031" y2="40.3031"/></g><!--MD5=[e51a69549831eec8049cdb017ae948e1]
+class EinfacherKollege--><g id="elem_EinfacherKollege"><rect codeLine="26" fill="#F1F1F1" height="28.8" id="EinfacherKollege" rx="1.5" ry="1.5" style="stroke:#181818;stroke-width:0.3;" width="83.4" x="127.8" y="85.9031"/><ellipse cx="136.8" cy="95.5031" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#181818;stroke-width:0.6;"/><path d="M138.4594,93.0281 Q138.5531,92.8969 138.6656,92.8313 Q138.7781,92.7656 138.9094,92.7656 Q139.1344,92.7656 139.275,92.925 Q139.4156,93.075 139.4156,93.4406 L139.4156,94.3125 Q139.4156,94.6781 139.275,94.8375 Q139.1344,94.9969 138.9094,94.9969 Q138.7031,94.9969 138.5812,94.875 Q138.4594,94.7625 138.3937,94.4531 Q138.3656,94.2375 138.2531,94.125 Q138.0563,93.9 137.6906,93.7688 Q137.325,93.6375 136.95,93.6375 Q136.4906,93.6375 136.1063,93.8344 Q135.7313,94.0313 135.4313,94.4813 Q135.1406,94.9312 135.1406,95.55 L135.1406,96.2063 Q135.1406,96.9469 135.675,97.4438 Q136.2094,97.9312 137.1656,97.9312 Q137.7281,97.9312 138.1219,97.7813 Q138.3563,97.6875 138.6094,97.425 Q138.7687,97.2656 138.8531,97.2188 Q138.9469,97.1719 139.0688,97.1719 Q139.2656,97.1719 139.4156,97.3313 Q139.575,97.4813 139.575,97.6875 Q139.575,97.8938 139.3688,98.1375 Q139.0688,98.4844 138.5906,98.6812 Q137.9438,98.9531 137.1656,98.9531 Q136.2563,98.9531 135.5344,98.5781 Q134.9438,98.2781 134.5313,97.6406 Q134.1188,96.9937 134.1188,96.225 L134.1188,95.5313 Q134.1188,94.7344 134.4844,94.05 Q134.8594,93.3563 135.5156,92.9906 Q136.1719,92.6156 136.9125,92.6156 Q137.3531,92.6156 137.7375,92.7188 Q138.1313,92.8125 138.4594,93.0281 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="64.2" x="145.2" y="98.4152">EinfacherKollege</text><line style="stroke:#181818;stroke-width:0.3;" x1="128.4" x2="210.6" y1="105.1031" y2="105.1031"/><line style="stroke:#181818;stroke-width:0.3;" x1="128.4" x2="210.6" y1="109.9031" y2="109.9031"/></g><!--MD5=[49111f00c4e937af24fbbe3ebc370646]
+class Komplexerkollege--><g id="elem_Komplexerkollege"><rect codeLine="27" fill="#F1F1F1" height="28.8" id="Komplexerkollege" rx="1.5" ry="1.5" style="stroke:#181818;stroke-width:0.3;" width="85.8" x="232.2" y="85.9031"/><ellipse cx="241.2" cy="95.5031" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#181818;stroke-width:0.6;"/><path d="M242.8594,93.0281 Q242.9531,92.8969 243.0656,92.8313 Q243.1781,92.7656 243.3094,92.7656 Q243.5344,92.7656 243.675,92.925 Q243.8156,93.075 243.8156,93.4406 L243.8156,94.3125 Q243.8156,94.6781 243.675,94.8375 Q243.5344,94.9969 243.3094,94.9969 Q243.1031,94.9969 242.9813,94.875 Q242.8594,94.7625 242.7938,94.4531 Q242.7656,94.2375 242.6531,94.125 Q242.4562,93.9 242.0906,93.7688 Q241.725,93.6375 241.35,93.6375 Q240.8906,93.6375 240.5063,93.8344 Q240.1313,94.0313 239.8312,94.4813 Q239.5406,94.9312 239.5406,95.55 L239.5406,96.2063 Q239.5406,96.9469 240.075,97.4438 Q240.6094,97.9312 241.5656,97.9312 Q242.1281,97.9312 242.5219,97.7813 Q242.7563,97.6875 243.0094,97.425 Q243.1688,97.2656 243.2531,97.2188 Q243.3469,97.1719 243.4688,97.1719 Q243.6656,97.1719 243.8156,97.3313 Q243.975,97.4813 243.975,97.6875 Q243.975,97.8938 243.7687,98.1375 Q243.4688,98.4844 242.9906,98.6812 Q242.3438,98.9531 241.5656,98.9531 Q240.6563,98.9531 239.9344,98.5781 Q239.3438,98.2781 238.9312,97.6406 Q238.5187,96.9937 238.5187,96.225 L238.5187,95.5313 Q238.5187,94.7344 238.8844,94.05 Q239.2594,93.3563 239.9156,92.9906 Q240.5719,92.6156 241.3125,92.6156 Q241.7531,92.6156 242.1375,92.7188 Q242.5313,92.8125 242.8594,93.0281 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="66.6" x="249.6" y="98.4152">Komplexerkollege</text><line style="stroke:#181818;stroke-width:0.3;" x1="232.8" x2="317.4" y1="105.1031" y2="105.1031"/><line style="stroke:#181818;stroke-width:0.3;" x1="232.8" x2="317.4" y1="109.9031" y2="109.9031"/></g><!--MD5=[9e1be3868de30e2edf75503f17e10f20]
+reverse link Mediator to KonkreterMediator--><g id="link_Mediator_KonkreterMediator"><path codeLine="21" d="M59.628,61.9991 C56.916,89.1191 53.052,127.7891 50.778,150.5471 " fill="none" id="Mediator-backto-KonkreterMediator" style="stroke:#181818;stroke-width:0.6;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="55.464,61.4351,60.84,49.9151,63.822,62.2751,55.464,61.4351" style="stroke:#181818;stroke-width:0.6;"/></g><!--MD5=[97a85f6ff6ca0df76717c82cde9ebfe5]
+reverse link Kollege to EinfacherKollege--><g id="link_Kollege_EinfacherKollege"><path codeLine="29" d="M169.5,57.2951 C169.5,67.0211 169.5,77.6831 169.5,85.8791 " fill="none" id="Kollege-backto-EinfacherKollege" style="stroke:#181818;stroke-width:0.6;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="165.3,57.1451,169.5,45.1451,173.7,57.1451,165.3,57.1451" style="stroke:#181818;stroke-width:0.6;"/></g><!--MD5=[2172e8ec90629ae68f72acddcfd02d21]
+reverse link Kollege to Komplexerkollege--><g id="link_Kollege_Komplexerkollege"><path codeLine="30" d="M201.18,51.8231 C218.178,62.8331 238.668,76.1051 253.764,85.8791 " fill="none" id="Kollege-backto-Komplexerkollege" style="stroke:#181818;stroke-width:0.6;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="198.66,55.1951,190.872,45.1451,203.226,48.1451,198.66,55.1951" style="stroke:#181818;stroke-width:0.6;"/></g><!--MD5=[3b94a16b492d303b6f44d7606a3e6265]
+reverse link Mediator to Kollege--><g id="link_Mediator_Kollege"><path codeLine="33" d="M92.28,30.7031 C110.07,30.7031 127.866,30.7031 145.656,30.7031 " fill="none" id="Mediator-backto-Kollege" style="stroke:#181818;stroke-width:0.6;"/><polygon fill="#181818" points="89.19,30.7031,94.59,33.1031,92.19,30.7031,94.59,28.3031,89.19,30.7031" style="stroke:#181818;stroke-width:0.6;"/></g><!--MD5=[17ab33126a0705b23707fcbff5703fa8]
+reverse link EinfacherKollege to KonkreterMediator--><g id="link_EinfacherKollege_KonkreterMediator"><path codeLine="35" d="M142.266,116.3531 C124.314,126.5291 100.71,139.9151 81.726,150.6851 " fill="none" id="EinfacherKollege-backto-KonkreterMediator" style="stroke:#181818;stroke-width:0.6;"/><polygon fill="#181818" points="145.092,114.7451,139.2109,115.3218,142.4825,116.2252,141.5791,119.4969,145.092,114.7451" style="stroke:#181818;stroke-width:0.6;"/></g><!--MD5=[f39d92436d493b83f844561fdada1cde]
+reverse link Komplexerkollege to KonkreterMediator--><g id="link_Komplexerkollege_KonkreterMediator"><path codeLine="36" d="M249.198,116.2991 C240.654,120.9071 230.964,125.6471 221.7,129.1031 C179.496,144.8531 129.12,155.7311 93.678,162.1571 " fill="none" id="Komplexerkollege-backto-KonkreterMediator" style="stroke:#181818;stroke-width:0.6;"/><polygon fill="#181818" points="252.048,114.7451,246.1576,115.2173,249.4127,116.1787,248.4513,119.4338,252.048,114.7451" style="stroke:#181818;stroke-width:0.6;"/></g><rect fill="none" height="6.7031" style="stroke:none;stroke-width:0.6;" width="97.8" x="108" y="192.4875"/><text fill="#888888" font-family="sans-serif" font-size="6" lengthAdjust="spacing" textLength="97.8" x="108" y="197.9191">Mark Sudau Consulting &amp; Software</text><!--MD5=[23c4ea092f0a17cbbde2a917aff38d18]
+@startuml
+'https://plantuml.com/class-diagram
+
+header
+    Vermittler-Pattern
+endheader
+
+footer
+    Mark Sudau Consulting & Software
+endfooter
+
+together {
+    interface Mediator {
+        + mediate()
+    }
+
+    class KonkreterMediator {
+        + mediate()
+    }
+}
+
+Mediator <|... KonkreterMediator
+
+together {
+    interface Kollege
+
+    class EinfacherKollege
+    class Komplexerkollege
+}
+Kollege <|.. EinfacherKollege
+Kollege <|.. Komplexerkollege
+
+
+Mediator <- Kollege
+
+EinfacherKollege <- - KonkreterMediator
+Komplexerkollege <- - KonkreterMediator
+@enduml
+
+@startuml
+
+header
+    Vermittler-Pattern
+endheader
+
+footer
+    Mark Sudau Consulting & Software
+endfooter
+
+together {
+    interface Mediator {
+        + mediate()
+    }
+
+    class KonkreterMediator {
+        + mediate()
+    }
+}
+
+Mediator <|... KonkreterMediator
+
+together {
+    interface Kollege
+
+    class EinfacherKollege
+    class Komplexerkollege
+}
+Kollege <|.. EinfacherKollege
+Kollege <|.. Komplexerkollege
+
+
+Mediator <- Kollege
+
+EinfacherKollege <- - KonkreterMediator
+Komplexerkollege <- - KonkreterMediator
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>
