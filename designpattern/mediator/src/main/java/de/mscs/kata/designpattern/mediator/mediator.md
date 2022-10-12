@@ -15,3 +15,16 @@ Der Vermittler findet Anwendung, wenn
 | Vorteile                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Nachteile                                                                                                                                                                                                                                                                          |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Die Koordination des kooperativen Verhaltens wird zentral verwaltet. Eine Veränderung des kooperativen Verhaltens kann unabhängig von den beteiligten Kollegen umgesetzt werden. Solche Änderungen des Verhaltens können durch neue konkrete Vermittler erreicht werden. Dadurch wird die Unterklassenbildung eingeschränkt, da die Änderungen nicht in den verschiedenen konkreten Kollegen vorgenommen und dementsprechend viele neue Unterklassen gebildet werden müssen. Das Muster unterstützt eine lose Kopplung zwischen den Kollegen. Das Protokoll der Kollegen wird vereinfacht. | Da der Vermittler ein Verhalten kapselt, das andernfalls auf mehrere Klassen verteilt wird, ist er selbst komplexer als die einzelnen Komponenten es gewesen wären. Es besteht die Gefahr, dass ein monolithischer Programmkomplex entsteht, der schwer wart- und erweiterbar ist. |
+
+
+## Beispiele
+### Ein UI mit Vorschau
+Eine Oberfläche enthält verschiedene Aktionsöglichkeiten, die nach auslösen die Vorschau automatisch anpassen.
+
+### Durchführen eines Buchungsatzes
+Bei der Eingabe einer Buchung werden in einer Buchführung die dazugehörenden Konten be- / entlastet und der Kontostand 
+entsprechend angepasst.
+
+### Chatroom
+Eine Person ging einen Text in einer Eingabezeile ein. Je nach Eingabe bekommen alle Teilnehmer oder genau ein Teilnehmer 
+diese Nachricht übermittelt.
