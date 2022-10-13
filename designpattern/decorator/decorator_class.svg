@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="720px" preserveAspectRatio="none" style="width:1143px;height:720px;background:#FFFFFF;" version="1.1" viewBox="0 0 1143 720" width="1143.75px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="13.9648" style="stroke:none;stroke-width:1.25;" width="105" x="1021.25" y="0"/><text fill="#888888" font-family="sans-serif" font-size="12.5" lengthAdjust="spacing" textLength="105" x="1021.25" y="11.3159">Dekorierer-Pattern</text><!--MD5=[bc767acddc71123a5e8f0bcbd1bbce7d]
+class DataInterface--><g id="elem_DataInterface"><rect codeLine="12" fill="#F1F1F1" height="118.6523" id="DataInterface" rx="3.125" ry="3.125" style="stroke:#181818;stroke-width:0.625;" width="147.5" x="496.875" y="287.0898"/><ellipse cx="515.625" cy="307.0898" fill="#B4A7E5" rx="13.75" ry="13.75" style="stroke:#181818;stroke-width:1.25;"/><path d="M516.8164,302.8906 L516.8164,311.2109 L518.9648,311.2109 Q519.7266,311.2109 520.0586,311.5039 Q520.3906,311.7969 520.3906,312.2852 Q520.3906,312.7539 520.0586,313.0469 Q519.7266,313.3398 518.9648,313.3398 L512.5391,313.3398 Q511.7773,313.3398 511.4453,313.0469 Q511.1133,312.7539 511.1133,312.2656 Q511.1133,311.7969 511.4453,311.5039 Q511.7773,311.2109 512.5391,311.2109 L514.6875,311.2109 L514.6875,302.8906 L512.5391,302.8906 Q511.7773,302.8906 511.4453,302.5977 Q511.1133,302.3047 511.1133,301.8164 Q511.1133,301.3477 511.4453,301.0547 Q511.7773,300.7617 512.5391,300.7617 L518.9648,300.7617 Q519.7266,300.7617 520.0586,301.0547 Q520.3906,301.3477 520.3906,301.8164 Q520.3906,302.3047 520.0586,302.5977 Q519.7266,302.8906 518.9648,302.8906 L516.8164,302.8906 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="17.5" font-style="italic" lengthAdjust="spacing" textLength="107.5" x="533.125" y="313.1567">DataInterface</text><line style="stroke:#181818;stroke-width:0.625;" x1="498.125" x2="643.125" y1="327.0898" y2="327.0898"/><line style="stroke:#181818;stroke-width:0.625;" x1="498.125" x2="643.125" y1="337.0898" y2="337.0898"/><ellipse cx="510.625" cy="353.7402" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="91.25" x="521.875" y="357.9321">methode1()</text><ellipse cx="510.625" cy="373.291" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="91.25" x="521.875" y="377.4829">methode2()</text><ellipse cx="510.625" cy="392.8418" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="91.25" x="521.875" y="397.0337">methode3()</text></g><!--MD5=[be25d3dd214c8dacd7244d40401a17ba]
+class DataModel--><g id="elem_DataModel"><rect codeLine="18" fill="#F1F1F1" height="118.6523" id="DataModel" rx="3.125" ry="3.125" style="stroke:#181818;stroke-width:0.625;" width="125" x="508.125" y="570.2148"/><ellipse cx="526.875" cy="590.2148" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#181818;stroke-width:1.25;"/><path d="M530.332,585.0586 Q530.5273,584.7852 530.7617,584.6484 Q530.9961,584.5117 531.2695,584.5117 Q531.7383,584.5117 532.0313,584.8438 Q532.3242,585.1563 532.3242,585.918 L532.3242,587.7344 Q532.3242,588.4961 532.0313,588.8281 Q531.7383,589.1602 531.2695,589.1602 Q530.8398,589.1602 530.5859,588.9063 Q530.332,588.6719 530.1953,588.0273 Q530.1367,587.5781 529.9023,587.3438 Q529.4922,586.875 528.7305,586.6016 Q527.9688,586.3281 527.1875,586.3281 Q526.2305,586.3281 525.4297,586.7383 Q524.6484,587.1484 524.0234,588.0859 Q523.418,589.0234 523.418,590.3125 L523.418,591.6797 Q523.418,593.2227 524.5313,594.2578 Q525.6445,595.2734 527.6367,595.2734 Q528.8086,595.2734 529.6289,594.9609 Q530.1172,594.7656 530.6445,594.2188 Q530.9766,593.8867 531.1523,593.7891 Q531.3477,593.6914 531.6016,593.6914 Q532.0117,593.6914 532.3242,594.0234 Q532.6563,594.3359 532.6563,594.7656 Q532.6563,595.1953 532.2266,595.7031 Q531.6016,596.4258 530.6055,596.8359 Q529.2578,597.4023 527.6367,597.4023 Q525.7422,597.4023 524.2383,596.6211 Q523.0078,595.9961 522.1484,594.668 Q521.2891,593.3203 521.2891,591.7188 L521.2891,590.2734 Q521.2891,588.6133 522.0508,587.1875 Q522.832,585.7422 524.1992,584.9805 Q525.5664,584.1992 527.1094,584.1992 Q528.0273,584.1992 528.8281,584.4141 Q529.6484,584.6094 530.332,585.0586 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="85" x="544.375" y="596.2817">DataModel</text><line style="stroke:#181818;stroke-width:0.625;" x1="509.375" x2="631.875" y1="610.2148" y2="610.2148"/><line style="stroke:#181818;stroke-width:0.625;" x1="509.375" x2="631.875" y1="620.2148" y2="620.2148"/><ellipse cx="521.875" cy="636.8652" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="91.25" x="533.125" y="641.0571">methode1()</text><ellipse cx="521.875" cy="656.416" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="91.25" x="533.125" y="660.6079">methode2()</text><ellipse cx="521.875" cy="675.9668" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="91.25" x="533.125" y="680.1587">methode3()</text></g><!--MD5=[8efefc782d12bd218e304bf88b7cb365]
+class DataWrapper1--><g id="elem_DataWrapper1"><rect codeLine="24" fill="#F1F1F1" height="157.7539" id="DataWrapper1" rx="3.125" ry="3.125" style="stroke:#181818;stroke-width:0.625;" width="287.5" x="248.125" y="23.9648"/><ellipse cx="328.4375" cy="43.9648" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#181818;stroke-width:1.25;"/><path d="M331.8945,38.8086 Q332.0898,38.5352 332.3242,38.3984 Q332.5586,38.2617 332.832,38.2617 Q333.3008,38.2617 333.5938,38.5938 Q333.8867,38.9063 333.8867,39.668 L333.8867,41.4844 Q333.8867,42.2461 333.5938,42.5781 Q333.3008,42.9102 332.832,42.9102 Q332.4023,42.9102 332.1484,42.6563 Q331.8945,42.4219 331.7578,41.7773 Q331.6992,41.3281 331.4648,41.0938 Q331.0547,40.625 330.293,40.3516 Q329.5313,40.0781 328.75,40.0781 Q327.793,40.0781 326.9922,40.4883 Q326.2109,40.8984 325.5859,41.8359 Q324.9805,42.7734 324.9805,44.0625 L324.9805,45.4297 Q324.9805,46.9727 326.0938,48.0078 Q327.207,49.0234 329.1992,49.0234 Q330.3711,49.0234 331.1914,48.7109 Q331.6797,48.5156 332.207,47.9688 Q332.5391,47.6367 332.7148,47.5391 Q332.9102,47.4414 333.1641,47.4414 Q333.5742,47.4414 333.8867,47.7734 Q334.2188,48.0859 334.2188,48.5156 Q334.2188,48.9453 333.7891,49.4531 Q333.1641,50.1758 332.168,50.5859 Q330.8203,51.1523 329.1992,51.1523 Q327.3047,51.1523 325.8008,50.3711 Q324.5703,49.7461 323.7109,48.418 Q322.8516,47.0703 322.8516,45.4688 L322.8516,44.0234 Q322.8516,42.3633 323.6133,40.9375 Q324.3945,39.4922 325.7617,38.7305 Q327.1289,37.9492 328.6719,37.9492 Q329.5898,37.9492 330.3906,38.1641 Q331.2109,38.3594 331.8945,38.8086 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="116.25" x="354.0625" y="50.0317">DataWrapper1</text><line style="stroke:#181818;stroke-width:0.625;" x1="249.375" x2="534.375" y1="63.9648" y2="63.9648"/><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="258.125" y="76.8652"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="255" x="273.125" y="84.8071">gewrapptesModel: DataInterface</text><line style="stroke:#181818;stroke-width:0.625;" x1="249.375" x2="534.375" y1="93.5156" y2="93.5156"/><ellipse cx="261.875" cy="110.166" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="91.25" x="273.125" y="114.3579">methode1()</text><ellipse cx="261.875" cy="129.7168" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="91.25" x="273.125" y="133.9087">methode2()</text><ellipse cx="261.875" cy="149.2676" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="91.25" x="273.125" y="153.4595">methode3()</text><ellipse cx="261.875" cy="168.8184" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="145" x="273.125" y="173.0103">eineErweiterung();</text></g><!--MD5=[00ff7528d01fb91a498906929fd58f26]
+class DataWrapper2--><g id="elem_DataWrapper2"><rect codeLine="32" fill="#F1F1F1" height="157.7539" id="DataWrapper2" rx="3.125" ry="3.125" style="stroke:#181818;stroke-width:0.625;" width="287.5" x="606.875" y="23.9648"/><ellipse cx="687.1875" cy="43.9648" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#181818;stroke-width:1.25;"/><path d="M690.6445,38.8086 Q690.8398,38.5352 691.0742,38.3984 Q691.3086,38.2617 691.582,38.2617 Q692.0508,38.2617 692.3438,38.5938 Q692.6367,38.9063 692.6367,39.668 L692.6367,41.4844 Q692.6367,42.2461 692.3438,42.5781 Q692.0508,42.9102 691.582,42.9102 Q691.1523,42.9102 690.8984,42.6563 Q690.6445,42.4219 690.5078,41.7773 Q690.4492,41.3281 690.2148,41.0938 Q689.8047,40.625 689.043,40.3516 Q688.2813,40.0781 687.5,40.0781 Q686.543,40.0781 685.7422,40.4883 Q684.9609,40.8984 684.3359,41.8359 Q683.7305,42.7734 683.7305,44.0625 L683.7305,45.4297 Q683.7305,46.9727 684.8438,48.0078 Q685.957,49.0234 687.9492,49.0234 Q689.1211,49.0234 689.9414,48.7109 Q690.4297,48.5156 690.957,47.9688 Q691.2891,47.6367 691.4648,47.5391 Q691.6602,47.4414 691.9141,47.4414 Q692.3242,47.4414 692.6367,47.7734 Q692.9688,48.0859 692.9688,48.5156 Q692.9688,48.9453 692.5391,49.4531 Q691.9141,50.1758 690.918,50.5859 Q689.5703,51.1523 687.9492,51.1523 Q686.0547,51.1523 684.5508,50.3711 Q683.3203,49.7461 682.4609,48.418 Q681.6016,47.0703 681.6016,45.4688 L681.6016,44.0234 Q681.6016,42.3633 682.3633,40.9375 Q683.1445,39.4922 684.5117,38.7305 Q685.8789,37.9492 687.4219,37.9492 Q688.3398,37.9492 689.1406,38.1641 Q689.9609,38.3594 690.6445,38.8086 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="116.25" x="712.8125" y="50.0317">DataWrapper2</text><line style="stroke:#181818;stroke-width:0.625;" x1="608.125" x2="893.125" y1="63.9648" y2="63.9648"/><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="616.875" y="76.8652"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="255" x="631.875" y="84.8071">gewrapptesModel: DataInterface</text><line style="stroke:#181818;stroke-width:0.625;" x1="608.125" x2="893.125" y1="93.5156" y2="93.5156"/><ellipse cx="620.625" cy="110.166" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="91.25" x="631.875" y="114.3579">methode1()</text><ellipse cx="620.625" cy="129.7168" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="91.25" x="631.875" y="133.9087">methode2()</text><ellipse cx="620.625" cy="149.2676" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="91.25" x="631.875" y="153.4595">methode3()</text><ellipse cx="620.625" cy="168.8184" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="202.5" x="631.875" y="173.0103">eineAndereErweiterung();</text></g><!--MD5=[853dbdb799677b98a87d6798c7f09552]
+class Szenario1--><g id="elem_Szenario1"><rect codeLine="40" fill="#F1F1F1" height="60" id="Szenario1" rx="3.125" ry="3.125" style="stroke:#181818;stroke-width:0.625;" width="118.75" x="85" y="72.7148"/><ellipse cx="103.75" cy="92.7148" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#181818;stroke-width:1.25;"/><path d="M107.207,87.5586 Q107.4023,87.2852 107.6367,87.1484 Q107.8711,87.0117 108.1445,87.0117 Q108.6133,87.0117 108.9063,87.3438 Q109.1992,87.6563 109.1992,88.418 L109.1992,90.2344 Q109.1992,90.9961 108.9063,91.3281 Q108.6133,91.6602 108.1445,91.6602 Q107.7148,91.6602 107.4609,91.4063 Q107.207,91.1719 107.0703,90.5273 Q107.0117,90.0781 106.7773,89.8438 Q106.3672,89.375 105.6055,89.1016 Q104.8438,88.8281 104.0625,88.8281 Q103.1055,88.8281 102.3047,89.2383 Q101.5234,89.6484 100.8984,90.5859 Q100.293,91.5234 100.293,92.8125 L100.293,94.1797 Q100.293,95.7227 101.4063,96.7578 Q102.5195,97.7734 104.5117,97.7734 Q105.6836,97.7734 106.5039,97.4609 Q106.9922,97.2656 107.5195,96.7188 Q107.8516,96.3867 108.0273,96.2891 Q108.2227,96.1914 108.4766,96.1914 Q108.8867,96.1914 109.1992,96.5234 Q109.5313,96.8359 109.5313,97.2656 Q109.5313,97.6953 109.1016,98.2031 Q108.4766,98.9258 107.4805,99.3359 Q106.1328,99.9023 104.5117,99.9023 Q102.6172,99.9023 101.1133,99.1211 Q99.8828,98.4961 99.0234,97.168 Q98.1641,95.8203 98.1641,94.2188 L98.1641,92.7734 Q98.1641,91.1133 98.9258,89.6875 Q99.707,88.2422 101.0742,87.4805 Q102.4414,86.6992 103.9844,86.6992 Q104.9023,86.6992 105.7031,86.9141 Q106.5234,87.1094 107.207,87.5586 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="78.75" x="121.25" y="98.7817">Szenario1</text><line style="stroke:#181818;stroke-width:0.625;" x1="86.25" x2="202.5" y1="112.7148" y2="112.7148"/><line style="stroke:#181818;stroke-width:0.625;" x1="86.25" x2="202.5" y1="122.7148" y2="122.7148"/></g><g id="elem_GMN9577"><path d="M7.5,294.5898 L7.5,397.8613 A0,0 0 0 0 7.5,397.8613 L281.25,397.8613 A0,0 0 0 0 281.25,397.8613 L281.25,307.0898 L268.75,294.5898 L149.375,294.5898 L144.375,133.0648 L139.375,294.5898 L7.5,294.5898 A0,0 0 0 0 7.5,294.5898 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.625;"/><path d="M268.75,294.5898 L268.75,307.0898 L281.25,307.0898 L268.75,294.5898 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.625;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="192.5" x="15" y="315.5505">Benötigt die Daten aus der</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="247.5" x="15" y="333.7048">Implementierung von DataInterface</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="221.25" x="15" y="351.8591">plus zusätzlicher Funktion, die</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="203.75" x="15" y="370.0134">sich aus den Interface daten</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="96.25" x="15" y="388.1677">ableiten lässt</text></g><!--MD5=[e3f6976e415776b851f1d97d151a42c7]
+class Szenario2--><g id="elem_Szenario2"><rect codeLine="49" fill="#F1F1F1" height="60" id="Szenario2" rx="3.125" ry="3.125" style="stroke:#181818;stroke-width:0.625;" width="118.75" x="938.75" y="72.7148"/><ellipse cx="957.5" cy="92.7148" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#181818;stroke-width:1.25;"/><path d="M960.957,87.5586 Q961.1523,87.2852 961.3867,87.1484 Q961.6211,87.0117 961.8945,87.0117 Q962.3633,87.0117 962.6563,87.3438 Q962.9492,87.6563 962.9492,88.418 L962.9492,90.2344 Q962.9492,90.9961 962.6563,91.3281 Q962.3633,91.6602 961.8945,91.6602 Q961.4648,91.6602 961.2109,91.4063 Q960.957,91.1719 960.8203,90.5273 Q960.7617,90.0781 960.5273,89.8438 Q960.1172,89.375 959.3555,89.1016 Q958.5938,88.8281 957.8125,88.8281 Q956.8555,88.8281 956.0547,89.2383 Q955.2734,89.6484 954.6484,90.5859 Q954.043,91.5234 954.043,92.8125 L954.043,94.1797 Q954.043,95.7227 955.1563,96.7578 Q956.2695,97.7734 958.2617,97.7734 Q959.4336,97.7734 960.2539,97.4609 Q960.7422,97.2656 961.2695,96.7188 Q961.6016,96.3867 961.7773,96.2891 Q961.9727,96.1914 962.2266,96.1914 Q962.6367,96.1914 962.9492,96.5234 Q963.2813,96.8359 963.2813,97.2656 Q963.2813,97.6953 962.8516,98.2031 Q962.2266,98.9258 961.2305,99.3359 Q959.8828,99.9023 958.2617,99.9023 Q956.3672,99.9023 954.8633,99.1211 Q953.6328,98.4961 952.7734,97.168 Q951.9141,95.8203 951.9141,94.2188 L951.9141,92.7734 Q951.9141,91.1133 952.6758,89.6875 Q953.457,88.2422 954.8242,87.4805 Q956.1914,86.6992 957.7344,86.6992 Q958.6523,86.6992 959.4531,86.9141 Q960.2734,87.1094 960.957,87.5586 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="78.75" x="975" y="98.7817">Szenario2</text><line style="stroke:#181818;stroke-width:0.625;" x1="940" x2="1056.25" y1="112.7148" y2="112.7148"/><line style="stroke:#181818;stroke-width:0.625;" x1="940" x2="1056.25" y1="122.7148" y2="122.7148"/></g><g id="elem_GMN9581"><path d="M861.25,276.4648 L861.25,416.0449 A0,0 0 0 0 861.25,416.0449 L1135,416.0449 A0,0 0 0 0 1135,416.0449 L1135,288.9648 L1122.5,276.4648 L1003.125,276.4648 L998.125,133.0648 L993.125,276.4648 L861.25,276.4648 A0,0 0 0 0 861.25,276.4648 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.625;"/><path d="M1122.5,276.4648 L1122.5,288.9648 L1135,288.9648 L1122.5,276.4648 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.625;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="192.5" x="868.75" y="297.4255">Benötigt die Daten aus der</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="247.5" x="868.75" y="315.5798">Implementierung von DataInterface</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="221.25" x="868.75" y="333.7341">plus zusätzlicher Funktion, die</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="203.75" x="868.75" y="351.8884">sich aus den Interface daten</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="208.75" x="868.75" y="370.0427">ableiten lässt. Die zusätliche</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="231.25" x="868.75" y="388.197">Funktion ist hier eine andere als</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="108.75" x="868.75" y="406.3513">bei Szenario 1.</text></g><!--MD5=[3bf2f716c3da1777fd1c130fd244be3e]
+reverse link DataInterface to DataModel--><g id="link_DataInterface_DataModel"><path codeLine="60" d="M570.625,430.9148 C570.625,475.5773 570.625,529.5648 570.625,569.7898 " fill="none" id="DataInterface-backto-DataModel" style="stroke:#181818;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="561.875,430.8648,570.625,405.8648,579.375,430.8648,561.875,430.8648" style="stroke:#181818;stroke-width:1.25;"/></g><!--MD5=[6c609a302367748c5a078aafa382b7ed]
+reverse link DataInterface to DataWrapper1--><g id="link_DataInterface_DataWrapper1"><path codeLine="61" d="M534.725,264.5398 C526.425,248.8773 517.025,233.0023 506.875,218.9648 C497.6875,206.2648 487.075,193.6773 476.1,181.7273 " fill="none" id="DataInterface-backto-DataWrapper1" style="stroke:#181818;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="542.625,260.7898,546.025,287.0523,526.9875,268.6398,542.625,260.7898" style="stroke:#181818;stroke-width:1.25;"/></g><!--MD5=[07fb246c0153fde446268fd2f0f2251d]
+reverse link DataWrapper1 to DataInterface--><g id="link_DataWrapper1_DataInterface"><path codeLine="64" d="M358.45,197.9773 C358.025,212.3648 360.6125,226.5398 368.125,238.9648 C395.9625,285.0023 451.0625,312.0648 496.7625,327.3523 " fill="none" id="DataWrapper1-backto-DataInterface" style="stroke:#181818;stroke-width:1.25;"/><polygon fill="none" points="360.1125,181.7273,354.3804,188.6838,358.5971,196.6506,364.3292,189.6941,360.1125,181.7273" style="stroke:#181818;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="126.25" x="369.375" y="234.9255">gewrapptesModel</text></g><!--MD5=[0ea62856f36319c78e1d21838199077b]
+reverse link DataInterface to DataWrapper2--><g id="link_DataInterface_DataWrapper2"><path codeLine="62" d="M666.65,303.8648 C693.65,287.5523 720.1625,266.1023 736.875,238.9648 C747.3125,222.0148 752.35,201.5398 754.425,181.7273 " fill="none" id="DataInterface-backto-DataWrapper2" style="stroke:#181818;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="670.675,311.6273,644.575,316.1023,662.1875,296.3273,670.675,311.6273" style="stroke:#181818;stroke-width:1.25;"/></g><!--MD5=[2f4de6bc523b814f6cac372e6df6d537]
+reverse link DataWrapper2 to DataInterface--><g id="link_DataWrapper2_DataInterface"><path codeLine="65" d="M617.475,193.8773 C610.3125,201.7898 603.7625,210.1648 598.125,218.9648 C585.2375,239.0898 578.3125,264.3148 574.625,286.9148 " fill="none" id="DataWrapper2-backto-DataInterface" style="stroke:#181818;stroke-width:1.25;"/><polygon fill="none" points="629.2,181.8023,620.3882,183.7004,618.7511,192.5644,627.5629,190.6663,629.2,181.8023" style="stroke:#181818;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="126.25" x="599.375" y="234.9255">gewrapptesModel</text></g><!--MD5=[321fd609ef8ccfc0f733e7a31d75984b]
+link Szenario1 to DataWrapper1--><g id="link_Szenario1_DataWrapper1"><path codeLine="67" d="M203.8375,102.7148 C216.3375,102.7148 228.85,102.7148 241.3625,102.7148 " fill="none" id="Szenario1-to-DataWrapper1" style="stroke:#181818;stroke-width:1.25;"/><polygon fill="#181818" points="247.9,102.7148,236.65,97.7148,241.65,102.7148,236.65,107.7148,247.9,102.7148" style="stroke:#181818;stroke-width:1.25;"/></g><!--MD5=[fe81b3495b38765d897ad6c8a27a0aef]
+reverse link DataWrapper2 to Szenario2--><g id="link_DataWrapper2_Szenario2"><path codeLine="68" d="M901.2125,102.7148 C913.7125,102.7148 926.225,102.7148 938.725,102.7148 " fill="none" id="DataWrapper2-backto-Szenario2" style="stroke:#181818;stroke-width:1.25;"/><polygon fill="#181818" points="894.675,102.7148,905.925,107.7148,900.925,102.7148,905.925,97.7148,894.675,102.7148" style="stroke:#181818;stroke-width:1.25;"/></g><rect fill="none" height="13.9648" style="stroke:none;stroke-width:1.25;" width="203.75" x="461.25" y="696.3672"/><text fill="#888888" font-family="sans-serif" font-size="12.5" lengthAdjust="spacing" textLength="203.75" x="461.25" y="707.6831">Mark Sudau Consulting &amp; Software</text><!--MD5=[100dc3c7dff89f94eede234bedbe41eb]
+@startuml
+'https://plantuml.com/class-diagram
+
+header
+    Dekorierer-Pattern
+endheader
+
+footer
+    Mark Sudau Consulting & Software
+endfooter
+
+together {
+    interface DataInterface {
+        + methode1()
+        + methode2()
+        + methode3()
+    }
+
+    class DataModel {
+        + methode1()
+        + methode2()
+        + methode3()
+    }
+}
+class DataWrapper1 {
+    - gewrapptesModel: DataInterface
+    + methode1()
+    + methode2()
+    + methode3()
+    + eineErweiterung();
+}
+
+class DataWrapper2{
+    - gewrapptesModel: DataInterface
+    + methode1()
+    + methode2()
+    + methode3()
+    + eineAndereErweiterung();
+}
+
+class Szenario1
+note bottom of Szenario1
+    Benötigt die Daten aus der
+    Implementierung von DataInterface
+    plus zusätzlicher Funktion, die
+    sich aus den Interface daten
+    ableiten lässt
+endnote
+
+class Szenario2
+note bottom of Szenario2
+    Benötigt die Daten aus der
+    Implementierung von DataInterface
+    plus zusätzlicher Funktion, die
+    sich aus den Interface daten
+    ableiten lässt. Die zusätliche
+    Funktion ist hier eine andere als
+    bei Szenario 1.
+endnote
+
+DataInterface <|... DataModel
+DataInterface <|.. DataWrapper1
+DataInterface <|.. DataWrapper2
+
+DataWrapper1 o- - DataInterface : gewrapptesModel
+DataWrapper2 o- - DataInterface : gewrapptesModel
+
+Szenario1 -> DataWrapper1
+DataWrapper2 <- Szenario2
+
+@enduml
+
+@startuml
+
+header
+    Dekorierer-Pattern
+endheader
+
+footer
+    Mark Sudau Consulting & Software
+endfooter
+
+together {
+    interface DataInterface {
+        + methode1()
+        + methode2()
+        + methode3()
+    }
+
+    class DataModel {
+        + methode1()
+        + methode2()
+        + methode3()
+    }
+}
+class DataWrapper1 {
+    - gewrapptesModel: DataInterface
+    + methode1()
+    + methode2()
+    + methode3()
+    + eineErweiterung();
+}
+
+class DataWrapper2{
+    - gewrapptesModel: DataInterface
+    + methode1()
+    + methode2()
+    + methode3()
+    + eineAndereErweiterung();
+}
+
+class Szenario1
+note bottom of Szenario1
+    Benötigt die Daten aus der
+    Implementierung von DataInterface
+    plus zusätzlicher Funktion, die
+    sich aus den Interface daten
+    ableiten lässt
+endnote
+
+class Szenario2
+note bottom of Szenario2
+    Benötigt die Daten aus der
+    Implementierung von DataInterface
+    plus zusätzlicher Funktion, die
+    sich aus den Interface daten
+    ableiten lässt. Die zusätliche
+    Funktion ist hier eine andere als
+    bei Szenario 1.
+endnote
+
+DataInterface <|... DataModel
+DataInterface <|.. DataWrapper1
+DataInterface <|.. DataWrapper2
+
+DataWrapper1 o- - DataInterface : gewrapptesModel
+DataWrapper2 o- - DataInterface : gewrapptesModel
+
+Szenario1 -> DataWrapper1
+DataWrapper2 <- Szenario2
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

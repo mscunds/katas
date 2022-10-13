@@ -1,0 +1,71 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+header
+    Dekorierer-Pattern
+endheader
+
+footer
+    Mark Sudau Consulting & Software
+endfooter
+
+together {
+    interface DataInterface {
+        + methode1()
+        + methode2()
+        + methode3()
+    }
+
+    class DataModel {
+        + methode1()
+        + methode2()
+        + methode3()
+    }
+}
+class DataWrapper1 {
+    - gewrapptesModel: DataInterface
+    + methode1()
+    + methode2()
+    + methode3()
+    + eineErweiterung();
+}
+
+class DataWrapper2{
+    - gewrapptesModel: DataInterface
+    + methode1()
+    + methode2()
+    + methode3()
+    + eineAndereErweiterung();
+}
+
+class Szenario1
+note bottom of Szenario1
+    Benötigt die Daten aus der
+    Implementierung von DataInterface
+    plus zusätzlicher Funktion, die
+    sich aus den Interface daten
+    ableiten lässt
+endnote
+
+class Szenario2
+note bottom of Szenario2
+    Benötigt die Daten aus der
+    Implementierung von DataInterface
+    plus zusätzlicher Funktion, die
+    sich aus den Interface daten
+    ableiten lässt. Die zusätliche
+    Funktion ist hier eine andere als
+    bei Szenario 1.
+endnote
+
+DataInterface <|... DataModel
+DataInterface <|.. DataWrapper1
+DataInterface <|.. DataWrapper2
+
+DataWrapper1 o-- DataInterface : gewrapptesModel
+DataWrapper2 o-- DataInterface : gewrapptesModel
+
+Szenario1 -> DataWrapper1
+DataWrapper2 <- Szenario2
+
+@enduml

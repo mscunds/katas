@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="328.75px" preserveAspectRatio="none" style="width:423px;height:328px;background:#FFFFFF;" version="1.1" viewBox="0 0 423 328" width="423.75px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="13.9648" style="stroke:none;stroke-width:1.25;" width="190" x="216.25" y="0"/><text fill="#888888" font-family="sans-serif" font-size="12.5" lengthAdjust="spacing" textLength="190" x="216.25" y="11.3159">Dekorierer-Pattern als Strategien</text><!--MD5=[be25d3dd214c8dacd7244d40401a17ba]
+class DataModel--><g id="elem_DataModel"><rect codeLine="11" fill="#F1F1F1" height="138.2031" id="DataModel" rx="3.125" ry="3.125" style="stroke:#181818;stroke-width:0.625;" width="231.25" x="161.25" y="23.9648"/><ellipse cx="229.0625" cy="43.9648" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#181818;stroke-width:1.25;"/><path d="M232.5195,38.8086 Q232.7148,38.5352 232.9492,38.3984 Q233.1836,38.2617 233.457,38.2617 Q233.9258,38.2617 234.2188,38.5938 Q234.5117,38.9063 234.5117,39.668 L234.5117,41.4844 Q234.5117,42.2461 234.2188,42.5781 Q233.9258,42.9102 233.457,42.9102 Q233.0273,42.9102 232.7734,42.6563 Q232.5195,42.4219 232.3828,41.7773 Q232.3242,41.3281 232.0898,41.0938 Q231.6797,40.625 230.918,40.3516 Q230.1563,40.0781 229.375,40.0781 Q228.418,40.0781 227.6172,40.4883 Q226.8359,40.8984 226.2109,41.8359 Q225.6055,42.7734 225.6055,44.0625 L225.6055,45.4297 Q225.6055,46.9727 226.7188,48.0078 Q227.832,49.0234 229.8242,49.0234 Q230.9961,49.0234 231.8164,48.7109 Q232.3047,48.5156 232.832,47.9688 Q233.1641,47.6367 233.3398,47.5391 Q233.5352,47.4414 233.7891,47.4414 Q234.1992,47.4414 234.5117,47.7734 Q234.8438,48.0859 234.8438,48.5156 Q234.8438,48.9453 234.4141,49.4531 Q233.7891,50.1758 232.793,50.5859 Q231.4453,51.1523 229.8242,51.1523 Q227.9297,51.1523 226.4258,50.3711 Q225.1953,49.7461 224.3359,48.418 Q223.4766,47.0703 223.4766,45.4688 L223.4766,44.0234 Q223.4766,42.3633 224.2383,40.9375 Q225.0195,39.4922 226.3867,38.7305 Q227.7539,37.9492 229.2969,37.9492 Q230.2148,37.9492 231.0156,38.1641 Q231.8359,38.3594 232.5195,38.8086 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="85" x="254.6875" y="50.0317">DataModel</text><line style="stroke:#181818;stroke-width:0.625;" x1="162.5" x2="391.25" y1="63.9648" y2="63.9648"/><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="171.25" y="76.8652"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="198.75" x="186.25" y="84.8071">value: whatEverIsNeeded</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="171.25" y="96.416"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="165" x="186.25" y="104.3579">strategie1: Strategy1</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="171.25" y="115.9668"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="165" x="186.25" y="123.9087">strategie2: Strategy2</text><line style="stroke:#181818;stroke-width:0.625;" x1="162.5" x2="391.25" y1="132.6172" y2="132.6172"/><ellipse cx="175" cy="149.2676" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="185" x="186.25" y="153.4595">strategyBasedMethod()</text></g><!--MD5=[d678f02e2d5bd6dca56adad3113a969b]
+class Strategy1--><g id="elem_Strategy1"><rect codeLine="18" fill="#F1F1F1" height="60" id="Strategy1" rx="3.125" ry="3.125" style="stroke:#181818;stroke-width:0.625;" width="116.25" x="138.75" y="237.7148"/><ellipse cx="157.5" cy="257.7148" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#181818;stroke-width:1.25;"/><path d="M160.957,252.5586 Q161.1523,252.2852 161.3867,252.1484 Q161.6211,252.0117 161.8945,252.0117 Q162.3633,252.0117 162.6563,252.3438 Q162.9492,252.6563 162.9492,253.418 L162.9492,255.2344 Q162.9492,255.9961 162.6563,256.3281 Q162.3633,256.6602 161.8945,256.6602 Q161.4648,256.6602 161.2109,256.4063 Q160.957,256.1719 160.8203,255.5273 Q160.7617,255.0781 160.5273,254.8438 Q160.1172,254.375 159.3555,254.1016 Q158.5938,253.8281 157.8125,253.8281 Q156.8555,253.8281 156.0547,254.2383 Q155.2734,254.6484 154.6484,255.5859 Q154.043,256.5234 154.043,257.8125 L154.043,259.1797 Q154.043,260.7227 155.1563,261.7578 Q156.2695,262.7734 158.2617,262.7734 Q159.4336,262.7734 160.2539,262.4609 Q160.7422,262.2656 161.2695,261.7188 Q161.6016,261.3867 161.7773,261.2891 Q161.9727,261.1914 162.2266,261.1914 Q162.6367,261.1914 162.9492,261.5234 Q163.2813,261.8359 163.2813,262.2656 Q163.2813,262.6953 162.8516,263.2031 Q162.2266,263.9258 161.2305,264.3359 Q159.8828,264.9023 158.2617,264.9023 Q156.3672,264.9023 154.8633,264.1211 Q153.6328,263.4961 152.7734,262.168 Q151.9141,260.8203 151.9141,259.2188 L151.9141,257.7734 Q151.9141,256.1133 152.6758,254.6875 Q153.457,253.2422 154.8242,252.4805 Q156.1914,251.6992 157.7344,251.6992 Q158.6523,251.6992 159.4531,251.9141 Q160.2734,252.1094 160.957,252.5586 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="76.25" x="175" y="263.7817">Strategy1</text><line style="stroke:#181818;stroke-width:0.625;" x1="140" x2="253.75" y1="277.7148" y2="277.7148"/><line style="stroke:#181818;stroke-width:0.625;" x1="140" x2="253.75" y1="287.7148" y2="287.7148"/></g><!--MD5=[bc790b966eae73bda6a7bf384de79ba2]
+class Strategy2--><g id="elem_Strategy2"><rect codeLine="19" fill="#F1F1F1" height="60" id="Strategy2" rx="3.125" ry="3.125" style="stroke:#181818;stroke-width:0.625;" width="116.25" x="298.75" y="237.7148"/><ellipse cx="317.5" cy="257.7148" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#181818;stroke-width:1.25;"/><path d="M320.957,252.5586 Q321.1523,252.2852 321.3867,252.1484 Q321.6211,252.0117 321.8945,252.0117 Q322.3633,252.0117 322.6563,252.3438 Q322.9492,252.6563 322.9492,253.418 L322.9492,255.2344 Q322.9492,255.9961 322.6563,256.3281 Q322.3633,256.6602 321.8945,256.6602 Q321.4648,256.6602 321.2109,256.4063 Q320.957,256.1719 320.8203,255.5273 Q320.7617,255.0781 320.5273,254.8438 Q320.1172,254.375 319.3555,254.1016 Q318.5938,253.8281 317.8125,253.8281 Q316.8555,253.8281 316.0547,254.2383 Q315.2734,254.6484 314.6484,255.5859 Q314.043,256.5234 314.043,257.8125 L314.043,259.1797 Q314.043,260.7227 315.1563,261.7578 Q316.2695,262.7734 318.2617,262.7734 Q319.4336,262.7734 320.2539,262.4609 Q320.7422,262.2656 321.2695,261.7188 Q321.6016,261.3867 321.7773,261.2891 Q321.9727,261.1914 322.2266,261.1914 Q322.6367,261.1914 322.9492,261.5234 Q323.2813,261.8359 323.2813,262.2656 Q323.2813,262.6953 322.8516,263.2031 Q322.2266,263.9258 321.2305,264.3359 Q319.8828,264.9023 318.2617,264.9023 Q316.3672,264.9023 314.8633,264.1211 Q313.6328,263.4961 312.7734,262.168 Q311.9141,260.8203 311.9141,259.2188 L311.9141,257.7734 Q311.9141,256.1133 312.6758,254.6875 Q313.457,253.2422 314.8242,252.4805 Q316.1914,251.6992 317.7344,251.6992 Q318.6523,251.6992 319.4531,251.9141 Q320.2734,252.1094 320.957,252.5586 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="76.25" x="335" y="263.7817">Strategy2</text><line style="stroke:#181818;stroke-width:0.625;" x1="300" x2="413.75" y1="277.7148" y2="277.7148"/><line style="stroke:#181818;stroke-width:0.625;" x1="300" x2="413.75" y1="287.7148" y2="287.7148"/></g><!--MD5=[d7866957966feaf96308cc1bb754cc5b]
+class Szenario--><g id="elem_Szenario"><rect codeLine="21" fill="#F1F1F1" height="60" id="Szenario" rx="3.125" ry="3.125" style="stroke:#181818;stroke-width:0.625;" width="108.75" x="8.75" y="63.3398"/><ellipse cx="27.5" cy="83.3398" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#181818;stroke-width:1.25;"/><path d="M30.957,78.1836 Q31.1523,77.9102 31.3867,77.7734 Q31.6211,77.6367 31.8945,77.6367 Q32.3633,77.6367 32.6563,77.9688 Q32.9492,78.2813 32.9492,79.043 L32.9492,80.8594 Q32.9492,81.6211 32.6563,81.9531 Q32.3633,82.2852 31.8945,82.2852 Q31.4648,82.2852 31.2109,82.0313 Q30.957,81.7969 30.8203,81.1523 Q30.7617,80.7031 30.5273,80.4688 Q30.1172,80 29.3555,79.7266 Q28.5938,79.4531 27.8125,79.4531 Q26.8555,79.4531 26.0547,79.8633 Q25.2734,80.2734 24.6484,81.2109 Q24.043,82.1484 24.043,83.4375 L24.043,84.8047 Q24.043,86.3477 25.1563,87.3828 Q26.2695,88.3984 28.2617,88.3984 Q29.4336,88.3984 30.2539,88.0859 Q30.7422,87.8906 31.2695,87.3438 Q31.6016,87.0117 31.7773,86.9141 Q31.9727,86.8164 32.2266,86.8164 Q32.6367,86.8164 32.9492,87.1484 Q33.2813,87.4609 33.2813,87.8906 Q33.2813,88.3203 32.8516,88.8281 Q32.2266,89.5508 31.2305,89.9609 Q29.8828,90.5273 28.2617,90.5273 Q26.3672,90.5273 24.8633,89.7461 Q23.6328,89.1211 22.7734,87.793 Q21.9141,86.4453 21.9141,84.8438 L21.9141,83.3984 Q21.9141,81.7383 22.6758,80.3125 Q23.457,78.8672 24.8242,78.1055 Q26.1914,77.3242 27.7344,77.3242 Q28.6523,77.3242 29.4531,77.5391 Q30.2734,77.7344 30.957,78.1836 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="68.75" x="45" y="89.4067">Szenario</text><line style="stroke:#181818;stroke-width:0.625;" x1="10" x2="116.25" y1="103.3398" y2="103.3398"/><line style="stroke:#181818;stroke-width:0.625;" x1="10" x2="116.25" y1="113.3398" y2="113.3398"/></g><!--MD5=[5168893fb29d09bf4b5b3f2ea3a012ee]
+link DataModel to Strategy1--><g id="link_DataModel_Strategy1"><path codeLine="23" d="M245.025,163.0148 C234.05,186.6023 222.2125,212.0148 213.025,231.7648 " fill="none" id="DataModel-to-Strategy1" style="stroke:#181818;stroke-width:1.25;"/><polygon fill="#181818" points="210.2625,237.7023,219.5313,229.5998,212.8918,232.0323,210.4593,225.3928,210.2625,237.7023" style="stroke:#181818;stroke-width:1.25;"/></g><!--MD5=[29a383879ae54350b056c158ff7747f8]
+link DataModel to Strategy2--><g id="link_DataModel_Strategy2"><path codeLine="24" d="M308.725,163.0148 C319.7,186.6023 331.5375,212.0148 340.725,231.7648 " fill="none" id="DataModel-to-Strategy2" style="stroke:#181818;stroke-width:1.25;"/><polygon fill="#181818" points="343.4875,237.7023,343.2907,225.3928,340.8582,232.0323,334.2187,229.5998,343.4875,237.7023" style="stroke:#181818;stroke-width:1.25;"/></g><!--MD5=[fc501aaeab3e41bcd84de9cc988767ad]
+link Szenario to DataModel--><g id="link_Szenario_DataModel"><path codeLine="25" d="M117.8125,93.3398 C129.9875,93.3398 142.15,93.3398 154.325,93.3398 " fill="none" id="Szenario-to-DataModel" style="stroke:#181818;stroke-width:1.25;"/><polygon fill="#181818" points="160.6875,93.3398,149.4375,88.3398,154.4375,93.3398,149.4375,98.3398,160.6875,93.3398" style="stroke:#181818;stroke-width:1.25;"/></g><rect fill="none" height="13.9648" style="stroke:none;stroke-width:1.25;" width="203.75" x="101.25" y="305.2148"/><text fill="#888888" font-family="sans-serif" font-size="12.5" lengthAdjust="spacing" textLength="203.75" x="101.25" y="316.5308">Mark Sudau Consulting &amp; Software</text><!--MD5=[b16c8b54aefbc3ff12da7a0f6789e2be]
+@startuml
+'https://plantuml.com/class-diagram
+
+header
+    Dekorierer-Pattern als Strategien
+endheader
+
+footer
+    Mark Sudau Consulting & Software
+endfooter
+
+class DataModel {
+    - value: whatEverIsNeeded
+    - strategie1: Strategy1
+    - strategie2: Strategy2
+    + strategyBasedMethod()
+}
+
+class Strategy1
+class Strategy2
+
+class Szenario
+
+DataModel - -> Strategy1
+DataModel - -> Strategy2
+Szenario -> DataModel
+
+@enduml
+
+@startuml
+
+header
+    Dekorierer-Pattern als Strategien
+endheader
+
+footer
+    Mark Sudau Consulting & Software
+endfooter
+
+class DataModel {
+    - value: whatEverIsNeeded
+    - strategie1: Strategy1
+    - strategie2: Strategy2
+    + strategyBasedMethod()
+}
+
+class Strategy1
+class Strategy2
+
+class Szenario
+
+DataModel - -> Strategy1
+DataModel - -> Strategy2
+Szenario -> DataModel
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>
