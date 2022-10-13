@@ -1,0 +1,28 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+header
+    Dekorierer-Pattern als Strategien
+endheader
+
+footer
+    Mark Sudau Consulting & Software
+endfooter
+
+class DataModel {
+    - value: whatEverIsNeeded
+    - strategie1: Strategy1
+    - strategie2: Strategy2
+    + strategyBasedMethod()
+}
+
+class Strategy1
+class Strategy2
+
+class Szenario
+
+DataModel --> Strategy1
+DataModel --> Strategy2
+Szenario -> DataModel
+
+@enduml
