@@ -3,10 +3,12 @@ package de.mscs.kata.designpattern.decorator;
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
 
+import de.mscs.kata.designpattern.decorator.strategy.Window;
 import de.mscs.kata.designpattern.decorator.wrapper.AgeDecorator;
 import de.mscs.kata.designpattern.decorator.wrapper.FinishedDecorator;
 import de.mscs.kata.designpattern.decorator.wrapper.SimpleDecorator;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -24,7 +26,15 @@ public class DecoratorApplication {
 				.build().run(args);
 
 		DecoratorApplication application = context.getBean(DecoratorApplication.class);
+		log.info(StringUtils.leftPad("", 20, '*'));
+		log.info("Decotator - Sample");
+		log.info(StringUtils.leftPad("", 20, '*'));
 		application.showWrapper();
+
+		log.info(StringUtils.leftPad("", 20, '*'));
+		log.info("Strategy - Sample");
+		log.info(StringUtils.leftPad("", 20, '*'));
+		application.showStrategy();
 	}
 
 	private void showWrapper() {
@@ -50,5 +60,15 @@ public class DecoratorApplication {
 		log.info("Der FinishedDecorator sagt: \"{}\" ist{}beendet.", finishedDecorator.getTitle(),
                 finishedDecorator.isFinished() ? " " : " nicht ");
 
+	}
+
+	private void showStrategy() {
+		Window window = new Window("Mein Fenster", new Window.Dimension(100, 150));
+		window.draw();
+		System.setProperty("strategy", "ios");
+		window.draw();
+		System.setProperty("strategy", "windows");
+		window.resize(1920, 1080);
+		window.draw();
 	}
 }
