@@ -25,7 +25,7 @@ public class AgeDecorator implements Decorator {
         return decoratedItem.getTitle() + " (AgeWrapper)";
     }
 
-    public long getAge() {
-        return Duration.between(decoratedItem.getCreatedAt(), Instant.now()).toMillis();
+    public Duration getAge() {
+        return Duration.between(decoratedItem.getCreatedAt(), Instant.now());
     }
 }
