@@ -12,6 +12,7 @@ public class Lecture1Application {
         Lecture1Application application = new Lecture1Application();
         application.createSessionFactory();
         application.createSessionFactory();
+        HibernateSessionFactoryFactory.shutdown();
         application.createSessionFactory();
     }
 

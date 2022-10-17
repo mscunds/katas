@@ -11,10 +11,16 @@ public final class HibernateSessionFactoryFactory {
 
     public static synchronized SessionFactory getSessionFactory () {
         if (factory == null) {
-            factory = new Configuration()
-                    .configure("de/mscs/katas/hibernate/lecture1/hibernate.cfg.xml")
-                    .buildSessionFactory();
+            factory = new Configuration().configure("de/mscs/katas/hibernate/lecture1/hibernate.cfg.xml")
+                                         .buildSessionFactory();
         }
         return factory;
+    }
+
+    public static void shutdown () {
+        if (!factory.isClosed()) {
+            factory.close();
+        }
+        factory = null;
     }
 }
