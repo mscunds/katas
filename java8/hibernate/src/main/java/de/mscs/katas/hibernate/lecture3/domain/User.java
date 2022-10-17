@@ -1,5 +1,5 @@
 /* (C) 2018 by Mark Sudau Consulting & Service */
-package de.mscs.training.domain;
+package de.mscs.katas.hibernate.lecture3.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -14,7 +14,7 @@ import javax.persistence.Table;
  * @since 16.03.2018
  */
 @Entity
-@Table
+@Table (name = "User")
 public class User {
 
     @Id
