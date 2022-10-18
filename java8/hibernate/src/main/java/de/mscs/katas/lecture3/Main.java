@@ -1,7 +1,7 @@
 /* (C) 2018 by Mark Sudau Consulting & Service */
-package de.mscs.katas.hibernate.lecture3;
+package de.mscs.katas.lecture3;
 
-import de.mscs.katas.hibernate.lecture3.domain.User;
+import de.mscs.katas.lecture3.domain.User;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

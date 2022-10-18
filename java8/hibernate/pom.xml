@@ -8,7 +8,10 @@
 	<properties>
 		<hibernate.version>5.6.10.Final</hibernate.version>
 		<lombok.version>1.18.22</lombok.version>
-		<java.version>1.8</java.version>
+		<java.version>19</java.version>
+		<junit-jupiter.version>5.8.2</junit-jupiter.version>
+		<spring.version>5.3.15</spring.version>
+		<assertj-core.version>3.23.1</assertj-core.version>
 	</properties>
 
 	<build>
@@ -38,6 +41,7 @@
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<version>${lombok.version}</version>
+			<optional>true</optional>
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate</groupId>
@@ -69,6 +73,19 @@
 			<groupId>org.javassist</groupId>
 			<artifactId>javassist</artifactId>
 			<version>3.27.0-GA</version>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter</artifactId>
+			<version>${junit-jupiter.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
+		<dependency>
+			<groupId>org.assertj</groupId>
+			<artifactId>assertj-core</artifactId>
+			<version>${assertj-core.version}</version>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 </project>

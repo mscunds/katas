@@ -1,4 +1,4 @@
-package de.mscs.katas.hibernate.lecture1;
+package de.mscs.katas.lecture1.hibernate;
 
 import java.util.logging.Logger;
 

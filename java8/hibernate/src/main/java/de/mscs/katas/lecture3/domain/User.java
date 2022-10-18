@@ -1,5 +1,5 @@
 /* (C) 2018 by Mark Sudau Consulting & Service */
-package de.mscs.katas.hibernate.lecture3.domain;
+package de.mscs.katas.lecture3.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
