@@ -1,0 +1,42 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+allowmixing
+
+class "HibernteSessionFactoryFactory" as hsff #lightgreen
+class "Configuration" as config #indianred
+
+class "Annotated Entity" as entity1 #wheat
+class "Annotated Entity" as entity2 #wheat
+class "Annotated Entity" as entity3 #wheat
+
+
+file "hibernate.hbm.xml" as cfg #lemonchiffon
+file "entitymapping.hbm.xml" as mapping1 #lemonchiffon
+file "entitymapping.hbm.xml" as mapping2 #lemonchiffon
+file "entitymapping.hbm.xml" as mapping3 #lemonchiffon
+file "entitymapping.hbm.xml" as mapping4 #lemonchiffon
+
+class "dao" as dao1 #seagreen
+class "dao" as dao2 #seagreen
+class "dao" as dao3 #seagreen
+
+hsff <-- dao1 : getSessionFactory()
+hsff <-- dao2 : getSessionFactory()
+hsff <-- dao3 : getSessionFactory()
+
+hsff <- config : buildSessionFactory()
+
+entity1 <-- config : addAnnotatedClass()
+entity2 <-- config : addAnnotatedClass()
+entity3 <-- config : addAnnotatedClass()
+
+config -> cfg : configure()
+cfg --> mapping1 : resource
+cfg --> mapping2 : resource
+cfg --> mapping3 : resource
+cfg -> mapping4 : resource
+
+
+
+@enduml

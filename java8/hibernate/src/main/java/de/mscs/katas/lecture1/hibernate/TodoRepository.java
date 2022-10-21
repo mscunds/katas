@@ -31,8 +31,10 @@ public class TodoRepository {
     }
 
     private Session getSession() {
-        return HibernateSessionFactoryFactory.getSessionFactory().openSession();
+        Session currentSession = HibernateSessionFactoryFactory.getSessionFactory().getCurrentSession();
+        if (currentSession == null) {
+            currentSession = HibernateSessionFactoryFactory.getSessionFactory().openSession();
+        }
+        return currentSession;
     }
 }
-
-
