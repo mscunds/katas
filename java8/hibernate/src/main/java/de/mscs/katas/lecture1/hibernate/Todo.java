@@ -25,7 +25,7 @@ public class Todo implements Serializable {
     public static final String NQ_FIND_BY_ID = "findById";
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue (strategy = GenerationType.IDENTITY)
     @EqualsAndHashCode.Include
     private Long id;
     private String title;
