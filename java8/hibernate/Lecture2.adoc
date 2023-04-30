@@ -1,0 +1,24 @@
+= Lektion 2
+
+== CRUD mit Hibernate
+
+Um mit einer Datenbank interagieren zu können, benötigen wir generell ein DAO, also eom Objekt das mit der Datenbank
+sprechen kann und die Funktionen implementiert, die quasi eine Schnittstelle zwischen der Fachlichkeit und der
+Technik darstellt.
+Dazu benötigen wir, wie wir in Lektion 1 kennen gelernt haben, die Hibernate SessionFactoryFactory. Mit der
+HibnernateSessionFactoryFactory erstellen wur und eine SessionFactory, mit der wir unser Dao initialisieren.
+
+
+== Weitere Möglichkeiten zum Lesen
+
+=== Queries
+
+==== Native Queries
+
+==== Named Queries
+
+==== Hibnernate Query Language (HQL)
+
+=== Criteria-API
+
+=== Specifications

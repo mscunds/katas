@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM 
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<!-- Dialect derzu nutzenden Datenbank -->
+		<property name="hibernate.dialect">org.hibernate.dialect.H2Dialect</property>
+		<!-- Treiber für die Datenbank -->
+		<property name="hibernate.connection.driver_class">org.h2.Driver</property>
+		<!-- URL der Datenbank -->
+		<property name="hibernate.connection.url">jdbc:h2:mem:lecture1</property>
+		<!-- Datenbank-User -->
+ 		<property name="hibernate.connection.username">sa</property>
+		<!-- Passwort für den Datenbank-User -->
+		<property name="hibernate.connection.password" />
+		<!--
+		 Konfiguration, wie Hibernate mit den DDL Informationen umgeben soll:
+		 create, create-drop, update, validate
+		-->
+		<property name="hbm2ddl.auto">create-drop</property>
+		<!-- List of XML mapping files -->
+		<!-- <mapping resource="Employee.hbm.xml" /> -->
+	</session-factory>
+</hibernate-configuration>
