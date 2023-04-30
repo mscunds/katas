@@ -1,0 +1,182 @@
+openapi: 3.0.3
+info:
+  contact:
+    email: service@sudau.net
+    name: Mark Sudau
+  description: Beispiel zum Contract First Ansatz
+  title: Contract First Sample
+  version: 1.0.0
+servers:
+- description: current host environment
+  url: ""
+tags:
+- description: Bereich der Aufgabenverwaltung
+  name: todo
+paths:
+  /todos:
+    get:
+      description: liefert alle todos vom Server
+      operationId: liesAufgaben
+      parameters:
+      - description: id der Aufgabe
+        explode: true
+        in: query
+        name: pageInfo
+        required: false
+        schema:
+          $ref: '#/components/schemas/PageInfo'
+        style: form
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Aufgabenliste'
+          description: "liefert alle Todos, zu angegebenen Seite in der angegebenen\
+            \ Anzahl. Wenn Page Info nicht definiert ist, \nwerden die ersten 10 Todos\
+            \ geladen."
+        "204":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Aufgabenliste'
+          description: liefert eine leere Liste an Todos. Die aktuelle Seite din er
+            Page Info ist dann immer 0.
+      summary: liefert alle todos vom Server
+      tags:
+      - todo
+      x-accepts: application/json
+      x-tags:
+      - tag: todo
+    post:
+      description: legt eine neue Aufgabe an.
+      operationId: erzeugeAufgabe
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Aufgabe'
+        description: Daten der anzulegenden Aufgabe
+        required: true
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Aufgabe'
+          description: die Aufgabe wurde mit den angegebenen Daten erstellt
+        "500":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Fehler'
+          description: "tritt auf, wenn irgendein nicht verarbeitbarer Fehler im Server\
+            \ auftritt."
+      summary: legt eine neue Aufgabe an.
+      tags:
+      - todo
+      x-content-type: application/json
+      x-accepts: application/json
+      x-tags:
+      - tag: todo
+  /todos/{id}:
+    get:
+      operationId: todoDetails
+      parameters:
+      - description: id der Aufgabe
+        explode: false
+        in: path
+        name: id
+        required: true
+        schema:
+          type: integer
+        style: simple
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Aufgabe'
+          description: hat die Aufgabe mit der gegebenen id gefunden
+      summary: liefert das Todo mit der angegebenen id
+      tags:
+      - todo
+      x-accepts: application/json
+      x-tags:
+      - tag: todo
+components:
+  schemas:
+    PageInfo:
+      description: Enthält Daten zur Auswahl von Seite und Anzahl der anzuzeigenden
+        Elemente
+      properties:
+        page:
+          default: 0
+          example: 0
+          minimum: 0
+          type: integer
+        contentCount:
+          default: 10
+          example: 100
+          minimum: 10
+          type: integer
+      title: Seiteninformationen
+      type: object
+    Aufgabenliste:
+      description: "enthält eine Liste von Todos, die aktuelle Seite und die maximale\
+        \ Anzahl der Seiten"
+      example:
+        items:
+        - description: Beschreibung der Aufgabe mit allen notwendigen Informationen
+            und einer maximalen Gesamtlänge von 200 Zeichen
+          id: 1
+          title: Aufgabe 1
+        - description: Beschreibung der Aufgabe mit allen notwendigen Informationen
+            und einer maximalen Gesamtlänge von 200 Zeichen
+          id: 1
+          title: Aufgabe 1
+      properties:
+        items:
+          items:
+            $ref: '#/components/schemas/Aufgabe'
+          type: array
+      title: Aufgabenliste
+      type: object
+    Aufgabe:
+      description: Beschreibung einer Aufgabe
+      example:
+        description: Beschreibung der Aufgabe mit allen notwendigen Informationen
+          und einer maximalen Gesamtlänge von 200 Zeichen
+        id: 1
+        title: Aufgabe 1
+      properties:
+        id:
+          description: id der Aufgabe
+          example: 1
+          type: number
+        title:
+          description: Schlagwort der Aufgabe
+          example: Aufgabe 1
+          type: string
+        description:
+          description: längere Beschreibung der Aufgabe
+          example: Beschreibung der Aufgabe mit allen notwendigen Informationen und
+            einer maximalen Gesamtlänge von 200 Zeichen
+          type: string
+      title: Aufgabe
+      type: object
+    Fehler:
+      description: Antwort bei einem Fehler.
+      properties:
+        meldung:
+          description: Beschreibung des Fehler
+          example: Fehler beim Speichern
+          type: string
+        status:
+          description: der Wert entspricht dem HttpStatus der Antwort
+          type: integer
+        zeitpunkt:
+          description: Zeitpunkt der Fehlermeldung in ISO Formatierung
+          type: string
+      title: Fehler
+      type: object

@@ -1,0 +1,165 @@
+openapi: 3.0.3
+info:
+  title: Contract First Sample
+  version: 1.0.0
+  description:  Beispiel zum Contract First Ansatz
+  contact:
+    name: Mark Sudau
+    email: service@sudau.net
+
+servers:
+  - url: ""
+    description : current host environment
+
+tags:
+  - name: todo
+    description: Bereich der Aufgabenverwaltung
+
+paths:
+  /todos:
+    get:
+      tags:
+        - todo
+      summary: |-
+        liefert alle todos vom Server
+      description: |-
+        liefert alle todos vom Server
+      operationId: liesAufgaben
+      parameters:
+        - name: pageInfo
+          description: id der Aufgabe
+          in: query
+          schema:
+            $ref: '#/components/schemas/PageInfo'
+          required: false
+      responses:
+        200:
+          description: |-
+            liefert alle Todos, zu angegebenen Seite in der angegebenen Anzahl. Wenn Page Info nicht definiert ist, 
+            werden die ersten 10 Todos geladen.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Aufgabenliste'
+        204:
+          description: |-
+            liefert eine leere Liste an Todos. Die aktuelle Seite din er Page Info ist dann immer 0.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Aufgabenliste'
+    post:
+      tags:
+        - todo
+      summary: |-
+        legt eine neue Aufgabe an.
+      description: |-
+        legt eine neue Aufgabe an.
+      operationId: erzeugeAufgabe
+      requestBody:
+        description: |-
+          Daten der anzulegenden Aufgabe
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Aufgabe'
+      responses:
+        200:
+          description: "die Aufgabe wurde mit den angegebenen Daten erstellt"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Aufgabe'
+        500:
+          description: "tritt auf, wenn irgendein nicht verarbeitbarer Fehler im Server auftritt."
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Fehler'
+
+  /todos/{id}:
+    get:
+      tags:
+        - todo
+      summary: |-
+        liefert das Todo mit der angegebenen id
+      operationId: todoDetails
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: id der Aufgabe
+          schema:
+            type: integer
+      responses:
+        200:
+          description: hat die Aufgabe mit der gegebenen id gefunden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Aufgabe'
+components:
+  schemas:
+    PageInfo:
+      title: Seiteninformationen
+      description: Enthält Daten zur Auswahl von Seite und Anzahl der anzuzeigenden Elemente
+      type: object
+      properties:
+        page:
+          type: integer
+          default: 0
+          minimum: 0
+          example: 0
+        contentCount:
+          type: integer
+          default: 10
+          minimum: 10
+          example: 100
+    Aufgabenliste:
+      title: Aufgabenliste
+      description: |-
+        enthält eine Liste von Todos, die aktuelle Seite und die maximale Anzahl der Seiten
+      type: object
+      properties:
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/Aufgabe'
+    Aufgabe:
+      title: Aufgabe
+      description: Beschreibung einer Aufgabe
+      type: object
+      properties:
+        id:
+          type: number
+          description: |-
+            id der Aufgabe
+          example: 1
+        title:
+          type: string
+          description: Schlagwort der Aufgabe
+          example: Aufgabe 1
+        description:
+          type: string
+          description: längere Beschreibung der Aufgabe
+          example: |-
+            Beschreibung der Aufgabe mit allen notwendigen Informationen und einer maximalen Gesamtlänge von 200 Zeichen
+        status:
+          $ref: '#/components/schemas/AufgabenStatus'
+    Fehler:
+      title: Fehler
+      description: Antwort bei einem Fehler.
+      type: object
+      properties:
+        meldung:
+          type: string
+          description: Beschreibung des Fehler
+          example: Fehler beim Speichern
+        status:
+          type: integer
+          description: der Wert entspricht dem HttpStatus der Antwort
+        zeitpunkt:
+          type: string
+          description: Zeitpunkt der Fehlermeldung in ISO Formatierung
+
