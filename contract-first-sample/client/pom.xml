@@ -15,7 +15,6 @@
         <dependency>
             <groupId>net.sudau.openapi.contractfirst</groupId>
             <artifactId>contract-first-api</artifactId>
-            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -31,4 +30,56 @@
         </dependency>
     </dependencies>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.openapitools</groupId>
+                <artifactId>openapi-generator-maven-plugin</artifactId>
+                <version>6.5.0</version>
+                <executions>
+                    <execution>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <generatorName>java</generatorName>
+                            <inputSpec>${api-contract}</inputSpec>
+                            <output>${project.basedir}/gen</output>
+                            <generateSupportingFiles>true</generateSupportingFiles>
+                            <generateAliasAsModel>false</generateAliasAsModel>
+                            <generateApiDocumentation>false</generateApiDocumentation>
+                            <generateApiTests>false</generateApiTests>
+                            <generateApis>true</generateApis>
+                            <generateModelDocumentation>false</generateModelDocumentation>
+                            <generateModelTests>false</generateModelTests>
+                            <generateModels>false</generateModels>
+                            <skipValidateSpec>true</skipValidateSpec>
+                            <configOptions>
+                                <basePackage>${api-basepackage}</basePackage>
+                                <modelPackage>${api-basepackage}.models</modelPackage>
+                                <apiPackage>${api-basepackage}.server</apiPackage>
+                                <serializableModel>true</serializableModel>
+                                <dateLibrary>java8-localdatetime</dateLibrary>
+                                <interfaceOnly>false</interfaceOnly>
+                                <skipDefaultInterface>false</skipDefaultInterface>
+                                <delegatePattern>true</delegatePattern>
+                                <booleanGetterPrefix>is</booleanGetterPrefix>
+                                <useTags>true</useTags>
+                                <useSpringBoot3>false</useSpringBoot3>
+                            </configOptions>
+                            <schemaMappings>
+                                <schemaMapping>
+                                    AufgabenStatus=net.sudau.openapi.contractfirst.api.enums.AufgabenStatus
+                                </schemaMapping>
+                                <schemaMapping>
+                                    PageRequestDto=org.springframework.data.domain.jaxb.SpringDataJaxb.PageRequestDto
+                                </schemaMapping>
+                            </schemaMappings>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>

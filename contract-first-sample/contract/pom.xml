@@ -17,18 +17,7 @@
         <jackson-databind-nullable.version>0.2.4</jackson-databind-nullable.version>
         <swagger-annotations.version>2.2.9</swagger-annotations.version>
         <jakarta.validation-api.version>3.0.2</jakarta.validation-api.version>
-        <api-basepackage>net.sudau.openapi.contractfirst.api</api-basepackage>
     </properties>
-
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>com.fasterxml.jackson</groupId>
-                <artifactId>jackson-bom</artifactId>
-                <version>2.14.1</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
     <dependencies>
         <dependency>
@@ -38,18 +27,14 @@
         <dependency>
             <groupId>org.openapitools</groupId>
             <artifactId>jackson-databind-nullable</artifactId>
-            <version>${jackson-databind-nullable.version}</version>
-            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>io.swagger.core.v3</groupId>
             <artifactId>swagger-annotations</artifactId>
-            <version>${swagger-annotations.version}</version>
         </dependency>
         <dependency>
             <groupId>jakarta.validation</groupId>
             <artifactId>jakarta.validation-api</artifactId>
-            <version>${jakarta.validation-api.version}</version>
         </dependency>
 
         <dependency>
@@ -111,7 +96,8 @@
                         </goals>
                         <configuration>
                             <generatorName>spring</generatorName>
-                            <inputSpec>${project.basedir}/contract-first-sample.yaml</inputSpec>
+<!--                            <inputSpec>${project.basedir}/contract-first-sample.yaml</inputSpec>-->
+                            <inputSpec>${api-contract}</inputSpec>
                             <output>${project.basedir}</output>
                             <generateSupportingFiles>false</generateSupportingFiles>
                             <generateAliasAsModel>false</generateAliasAsModel>

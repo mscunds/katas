@@ -15,9 +15,15 @@
     </modules>
 
     <properties>
+        <api-basepackage>net.sudau.openapi.contractfirst.api</api-basepackage>
+        <api-contract>${project.basedir}/../contract-first-sample.yaml</api-contract>
+        <commons-lang3.version>3.12.0</commons-lang3.version>
+        <jackson-databind-nullable.version>0.2.4</jackson-databind-nullable.version>
+        <jakarta.validation-api.version>3.0.2</jakarta.validation-api.version>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <swagger-annotations.version>2.2.9</swagger-annotations.version>
     </properties>
 
     <dependencyManagement>
@@ -30,12 +36,49 @@
                 <type>pom</type>
             </dependency>
             <dependency>
+                <groupId>com.fasterxml.jackson</groupId>
+                <artifactId>jackson-bom</artifactId>
+                <version>2.14.1</version>
+            </dependency>
+            <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>1.18.24</version>
             </dependency>
+            <dependency>
+                <groupId>org.openapitools</groupId>
+                <artifactId>jackson-databind-nullable</artifactId>
+                <version>${jackson-databind-nullable.version}</version>
+                <optional>true</optional>
+            </dependency>
+            <dependency>
+                <groupId>io.swagger.core.v3</groupId>
+                <artifactId>swagger-annotations</artifactId>
+                <version>${swagger-annotations.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>jakarta.validation</groupId>
+                <artifactId>jakarta.validation-api</artifactId>
+                <version>${jakarta.validation-api.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>net.sudau.openapi.contractfirst</groupId>
+                <artifactId>contract-first-api</artifactId>
+                <version>${project.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.openapitools</groupId>
+                    <artifactId>openapi-generator-maven-plugin</artifactId>
+                    <version>6.5.0</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 
 </project>

@@ -6,9 +6,11 @@ import net.sudau.openapi.contractfirst.api.models.Aufgabenliste;
 import net.sudau.openapi.contractfirst.api.models.PageInfo;
 import net.sudau.openapi.contractfirst.api.server.TodoApi;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+@CrossOrigin(value = "http://localhost:*")
 @RestController
 @RequestMapping("/sample")
 @Slf4j
